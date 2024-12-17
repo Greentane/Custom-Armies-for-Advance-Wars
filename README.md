@@ -28,8 +28,11 @@ A Grayscale Version Of Its Idle. Usually when the unit is done with an Action.
 EG: gs_xxinfantry.gif | gs_osinfantry.gif  
 <img src="ab-rework/gs_xxinfantry.gif" width="64" height="64" />
 
-Three Movement Assets. One for Up, Down, Side. SIDE ANIMATIONS MUST FACE TO THE RIGHT, THE WEBSITE HANDLES FLIPS BASED ON COUNTRY.\
+Three Movement Assets. One for Up, Down, Side.  
+**SIDE ANIMATIONS MUST FACE TO THE RIGHT, THE WEBSITE HANDLES FLIPS BASED ON COUNTRY.**  
 EG: xxinfantry_mside.gif | osinfantry_mside.gif  
+EG: xxinfantry_mup.gif | osinfantry_mside.gif  
+EG: xxinfantry_mdown.gif | osinfantry_mside.gif  
 <img src="ab-rework/xxinfantry_mside.gif" width="64" height="64" />  
 <img src="ab-rework/xxinfantry_mup.gif" width="52" height="76" />  
 <img src="ab-rework/xxinfantry_mdown.gif" width="52" height="76" />  
