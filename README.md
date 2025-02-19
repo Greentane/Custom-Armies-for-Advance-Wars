@@ -48,7 +48,9 @@ EG: xxinfantry_mdown.gif | osinfantry_mside.gif
 <img src="ab-rework/xxinfantry_mup.gif" width="52" height="76" />  
 <img src="ab-rework/xxinfantry_mdown.gif" width="52" height="76" />  
   
-**Buildings are now supported!**  
+**Custom Buildings are now supported!**  
+<img src="tg-remix/tealgalaxytesthq.gif" width="64" height="128" />
+<img src="tg-remix/tealgalaxytestcity.gif" width="64" height="88" />  
 Just add the sprite as a xxcity.gif, xxport.gif, xxhq.gif and so on.  
 All buildings have 3 frames with the lights on Frame 1 and Frame 3.  
 Frame 1: 30ms Delay  
