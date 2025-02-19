@@ -15,10 +15,21 @@ This is an example of what your folder hierachy should look like.
     - xxinfantry_mup.gif
     - xxmech.gif
     - xxtank.gif
+    - xxcity.gif
+    - xxport.gif
+    - xxairport.gif
+    - xxcomtower.gif
+    - xxbase.gif
     - etc...
   
-Each unit has 5 sprites that are used on the website...
+Each unit has 5 sprites that are used on the website...  
+Building Sprites can just have a single format for them.  
+**tealgalaxycity.gif** -> **xxcity.gif**  
 These will be needed when the extension does the replacement otherwise you might get some assets _flickering_  
+  
+The Same Process must be repeated for each unit you want to replace the asset with.  
+Make sure to have the **xx** prefix before the unit so that the extension can handle the replacements for you.  
+You don't need to have every asset present but missing assets like xxinfantry_mside will make the website default to the country you were replacing. 
   
 A Default Idle - Its Normal Animation  
 EG: xxinfantry.gif | osinfantry.gif  
@@ -36,10 +47,13 @@ EG: xxinfantry_mdown.gif | osinfantry_mside.gif
 <img src="ab-rework/xxinfantry_mside.gif" width="64" height="64" />  
 <img src="ab-rework/xxinfantry_mup.gif" width="52" height="76" />  
 <img src="ab-rework/xxinfantry_mdown.gif" width="52" height="76" />  
-
-The Same Process must be repeated for each unit you want to replace the asset with.  
-Make sure to have the **xx** prefix before the unit so that the extension can handle the replacements for you.  
-You don't need to have every asset present but missing assets like xxinfantry_mside will make the website default to the country you were replacing.  
+  
+**Buildings are now supported!**  
+Just add the sprite as a xxcity.gif, xxport.gif, xxhq.gif and so on.  
+All buildings have 3 frames with the lights on Frame 1 and Frame 3.  
+Frame 1: 30ms Delay  
+Frame 2: 40ms Delay  
+Frame 3: 90ms Delay  
   
 The FINAL step is to obtain the RAW link to the github folder.  
 The extension needs the raw link so that it can pull the sprites from Github.  
